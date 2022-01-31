@@ -1,14 +1,14 @@
 import React from 'react';
-import About from './About'
+import waving from "../images/wavinghand.png"
 
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
       <p>
-        Welcome to my portfolio! Please take a look around 
+       {waving} Welcome to my portfolio! Please take a look around 
         This portfolio was built with React.js!
-      <About />
+      Check out my skills in the About seciton.....
       </p>
     </div>
   );

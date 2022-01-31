@@ -29,4 +29,9 @@ Find a nice font and style the pages
 
 - finish adding content to pages
 - import the components into App.js in src folder
-- fonts go in idnex.css
+- fonts go in index.css
+
+## Credits
+
+- Used the activity from class
+/
