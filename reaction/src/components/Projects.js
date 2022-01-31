@@ -70,3 +70,30 @@ const projects = [
   },
  
 ]
+
+export default function WorkSection() {
+  return (
+      <div id="Work">
+          <section className="card">
+              <aside>
+                  <h2>Work</h2>
+              </aside>
+          </section>
+          <section className="card work">
+              {projectInfo.map((project) => (
+                  <Project
+                      key={project.id}
+                      id={project.id}
+                      title={project.title}
+                      description={project.description}
+                      repo={project.repo}
+                      deployed={project.deployed}
+                      image={project.image}
+                      skills={project.skills}
+                      instructions={project.instructions}
+                  />
+              ))}
+          </section>
+      </div>
+  );
+}
