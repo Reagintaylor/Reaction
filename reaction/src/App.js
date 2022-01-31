@@ -1,24 +1,18 @@
 import header from './header.gif';
 import './App.css';
+// import About from './components/About'
+// import Contact from './components/Contact'
+// import NavTabs from './components/NavTabs'
+// import Home from './components/Home'
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         <img src={header} className="App-logo" alt="header" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <NavTabs /> */}
+        <PortfolioContainer />
     </div>
   );
 }
