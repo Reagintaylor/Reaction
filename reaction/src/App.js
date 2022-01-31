@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       
         <img src={header} className="App-logo" alt="header" />
-        {/* <NavTabs /> */}
+        
         <PortfolioContainer />
         <br/>
         <Footer />

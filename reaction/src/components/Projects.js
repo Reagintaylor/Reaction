@@ -1,13 +1,13 @@
 import React from 'react';
 import Projectprops from './Projectprops'
-import planItImg from '../images/planit'
-import notetakerImg from '../images/notetaker'
-import reaginswebImg from '../images/reaginsweb'
-import teamprofImg from '../images/teamprof'
-import mealprepImg from '../images/mealprep'
-import jateImg from '../images/jate'
+import planItImg from '../images/planit.png'
+import notetakerImg from '../images/notetaker.png'
+import reaginswebImg from '../images/reaginsweb.png'
+import teamprofImg from '../images/teamprof.png'
+import mealprepImg from '../images/mealprep.png'
+import jateImg from '../images/jate.png'
 
-const project = [
+const projectInfo = [
   {
     id: 0,
     title: "PlanIt",
@@ -81,7 +81,7 @@ export default function Projects() {
           </section>
           <section className="card work">
               {projectInfo.map((project) => (
-                  <Project
+                  <Projectprops
                       key={project.id}
                       id={project.id}
                       title={project.title}

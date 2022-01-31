@@ -1,5 +1,5 @@
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //function to output project cards
 export default function Project(props) {
@@ -7,7 +7,7 @@ export default function Project(props) {
 
     return (
         <section className="work-card">
-            <img className={props.id} alt='project images' src={props.image} height="400px" width="500px" onClick={handleClick}></img>
+            <img className={props.id} alt='project images' src={props.image} height="400px" width="700px"></img>
             <div className="card text ">
                 <a href={props.deployed} target="_blank" rel="noopener noreferrer">
                     <h4> {props.title} </h4>
