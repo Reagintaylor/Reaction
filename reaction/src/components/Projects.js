@@ -7,7 +7,7 @@ import teamprofImg from '../images/teamprof'
 import mealprepImg from '../images/mealprep'
 import jateImg from '../images/jate'
 
-const projects = [
+const project = [
   {
     id: 0,
     title: "PlanIt",
@@ -71,7 +71,7 @@ const projects = [
  
 ]
 
-export default function WorkSection() {
+export default function Projects() {
   return (
       <div id="Work">
           <section className="card">
@@ -90,7 +90,6 @@ export default function WorkSection() {
                       deployed={project.deployed}
                       image={project.image}
                       skills={project.skills}
-                      instructions={project.instructions}
                   />
               ))}
           </section>
