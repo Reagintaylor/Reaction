@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   return (
-    <div>
+    <div className="Contact">
       <h3>Contact me!</h3>
       <p>
       <div className="mb-3">
