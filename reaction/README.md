@@ -1,37 +1,32 @@
 # Reaction
-my react.js portfolio 
+- My react.js portfolio 
 
 ## Description
+- This is my portfolio is React.js form. I enjoyed recreating my portfolio with a newer technology which can display my quick learning skills. Stay tuned for updates!!
+
 
 ## Installation
+- Once the repo has been cloned down, 
+```
+npm i
+npx create-react-app reaction
+npm run build
+```
+- cd into the reaction app you just created 
+```
+npm start
+```
 
-## Usage
-
-
-
-
-
-
-npx create-react-app "name of app"
-npm run build?
-npm start 
-
-
-to uninstall run
+- To uninstall run
+```
 npm uninstall -g create-react-app
-
-todos
-redo the css
-add my content and redo the pages
-
-Find a nice font and style the pages
+```
+## Links
+- [repo](https://github.com/Reagintaylor/Reaction)
+- [deployed app]()
 
 
-- finish adding content to pages
-- import the components into App.js in src folder
-- fonts go in index.css
 
 ## Credits
 
-- Used the activity from class
-/
+- For help with this activity, I used the activities from class.
